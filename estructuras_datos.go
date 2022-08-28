@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func estructuras() {
 
 	//los arrays en go tienen un tamaño unico y se declaran de la sig, forma
 
