@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func control() {
 
 	//control de flujo if
 
