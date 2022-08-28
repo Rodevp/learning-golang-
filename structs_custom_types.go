@@ -30,7 +30,7 @@ type Circle struct {
 //mientras quiera modificar el valor de las estructura original, debemos pasarle
 //su referencia, de no ser asi solo actuará como un tipo, funcion pura.
 
-func main() {
+func estructura() {
 
 	/*
 		Las estructuras son tipos que podemos crear nosotros y este a su vez puede
