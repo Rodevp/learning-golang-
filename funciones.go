@@ -7,7 +7,8 @@ import (
 	"time"
 )
 
-func main() {
+func funciones() {
+
 	hello("rodrigo", "rodriguez")
 	word := "nanda kure"
 
@@ -96,6 +97,7 @@ func boom() error {
 // parecido al operador rest en js.
 
 func variaticFunctionSayHello(persons ...string) {
+	fmt.Println("persons", persons)
 	for _, n := range persons {
 		fmt.Printf("Hello %s\n", n)
 	}
