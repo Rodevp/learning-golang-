@@ -1,11 +1,14 @@
 package main
 
 import (
+	"course/course/utils"
 	"fmt"
 	"os"
 )
 
-func main() {
+func defer_y_mas() {
+
+	utils.Example()
 
 	//defer -> nos permite diferir algo, o sea, nos permite aplazar la ejecucion
 	//de una funcion en donde este defer fue especificado, este se ejecutara
